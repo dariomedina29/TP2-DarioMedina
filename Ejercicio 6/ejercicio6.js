@@ -7,6 +7,8 @@ boton.addEventListener("click" , ()=>{
     const estatura = parseInt(document.getElementById("estatura").value)
     const correoElectronico = document.getElementById("correo").value;
     const resultado = document.getElementById("resultado");
+    resultado.innerHTML = "";
+    resultado1.innerHTML = "";
 
     const errores = [];
     if (nombre === "" || nombre.length > 50 ){
